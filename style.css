@@ -1,0 +1,70 @@
+.logo {
+    margin: 300px auto auto;
+    width: 50%;
+    /*border: 2px solid black;*/
+    padding: 10px;
+    text-align: center;
+}
+
+.alternative_search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+
+}
+
+.alternative_search > a {
+    color: white;
+}
+
+#google_search {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    /*border: 2px solid blue;*/
+    text-align: center;
+}
+
+#searchbar {
+    width: 170px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: "Roboto Light", serif;
+    background-color: white;
+    background-image: url('searchIcon.png');
+    background-position: 15px 13px;
+    background-repeat: no-repeat;
+    padding: 12px 50px 12px 50px;
+
+    transition: width 0.4s ease-in-out;
+}
+
+#searchbar:focus {
+    width: 100%;
+}
+
+#submitButton {
+    background-color: grey;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "Roboto Light", serif;
+    color: black;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+body {
+    background-image: url(background.jpg);
+    width: auto;
+    height: auto;
+
+    /*background-position: center; !* Center the image *!*/
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-color: #cccccc;
+}
