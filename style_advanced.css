@@ -1,0 +1,61 @@
+.logo {
+    margin: auto auto;
+    width: 100%;
+    /*border: 2px solid black;*/
+    padding: 10px;
+    text-align: left;
+
+}
+
+body {
+    background-color: #232222;
+}
+
+h2 {
+    color: #cb6666;
+    padding-left: 20px;
+}
+
+.search_forms {
+    margin: 50px auto 50px 20px;
+    width: 100%;
+    text-align: left;
+    /*border: 2px solid black;*/
+
+}
+
+#all_this_words {
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    font-size: 20px;
+    font-family: "Roboto Light", serif;
+    background-color: #232222;
+}
+
+#this_exact_word {
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    font-size: 20px;
+    font-family: "Roboto Light", serif;
+    background-color: #232222;
+}
+
+#any_of_these_words {
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    font-size: 20px;
+    font-family: "Roboto Light", serif;
+    background-color: #232222;
+}
+
+#none_of_these_words {
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    font-size: 20px;
+    font-family: "Roboto Light", serif;
+    background-color: #232222;
+}
