@@ -6,16 +6,18 @@
     text-align: center;
 }
 
-.alternative_search {
+
+.back_to_google {
     position: absolute;
     top: 0;
     right: 0;
     padding: 20px;
-
 }
-
-.alternative_search > a {
+.back_to_google > a{
     color: white;
+}
+body {
+    background-color: #232222;
 }
 
 #google_search {
@@ -27,7 +29,7 @@
 }
 
 #searchbar {
-    width: 400px;
+    width: 300px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 30px;
@@ -53,28 +55,7 @@
     font-size: 15px;
     font-family: "Roboto Light", serif;
     color: black;
-    padding: 10px 20px;
+    padding: 10px 15px;
     margin: 10px 5px;
     cursor: pointer;
-}
-#luckyButton{
-    background-color: #aa2eaa;
-    border: 2px solid black;
-    border-radius: 10px;
-    font-size: 15px;
-    font-family: "Roboto Light", serif;
-    color: black;
-    padding: 10px 20px;
-    margin: 10px 5px;
-    cursor: pointer;
-}
-body {
-    background-image: url(background.jpg);
-    width: auto;
-    height: auto;
-
-    /*background-position: center; !* Center the image *!*/
-    background-repeat: repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    background-color: #cccccc;
 }
